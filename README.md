@@ -20,7 +20,7 @@ reqmise('Rainbow');
 
 
 ##Report Issue 
-(Report Issue)[issue-url]
+[issue-url]
 
 ##Contribute
 [Contribute](https://github.com//reqmise/CONTRIBUTING.md)
