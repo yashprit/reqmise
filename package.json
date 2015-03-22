@@ -1,38 +1,38 @@
 {
-	"name": "reqmise",
-	"version": "0.0.0-alpha",
-	"description": "Promisification of nodejs request module",
-	
-	"bugs": {
-		"url": "/reqmise/issues"
-	},
-	"author": {
-		"url": "yashprit.github.io",
-		"name": "Yashprit",
-		"email": "yashprit@gmail.com"
+  "name": "reqmise",
+  "version": "0.0.0-alpha",
+  "description": "Promisification of nodejs request module",
+
+  "bugs": {
+    "url": "/reqmise/issues"
   },
-	"repository": {
-		"type": "git",
-		"url": "user/repo"
+  "author": {
+    "url": "yashprit.github.io",
+    "name": "Yashprit",
+    "email": "yashprit@gmail.com"
   },
-	"license": "MIT",
-	"files": [
-		"index.js"
+  "repository": {
+    "type": "git",
+    "url": "user/repo"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
   ],
-	"keywords": [
-		"reqmise",
-		"nodejs",
-		"promise",
-		"request",
-		"bluebird"
-	],
-	"dependencies": {},
+  "keywords": [
+    "reqmise",
+    "nodejs",
+    "promise",
+    "request",
+    "bluebird"
+  ],
+  "dependencies": {
+    "bluebird": "*"
+  },
   "devDependencies": {
-		"gulp": "^3.8.11",
-		"gulp-cli": "^0.1.5",
-		"gulp-mocha": "^2.0.0"
+    "mocha": "*"
   },
   "scripts": {
-		"test": "gulp test"
-	}
+    "test": "gulp test"
+  }
 }
